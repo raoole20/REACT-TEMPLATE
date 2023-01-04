@@ -1,7 +1,17 @@
+import { Box } from "@mui/material"
+
+// My Imports ----------------------
 import "./assets/sass/tailwind.scss"
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  return (
+    <Box 
+      className="box-layout"
+      height={'100vh'} 
+      width={'100%'}>
+      
+    </Box>
+  )
 }
 
 export default App
