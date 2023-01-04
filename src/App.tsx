@@ -1,10 +1,7 @@
-import { HelloWorld } from "./views/helloWorld"
-
+import "./index.css"
 
 function App() {
-  return (
-    <HelloWorld />
-  )
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>
 }
 
 export default App
